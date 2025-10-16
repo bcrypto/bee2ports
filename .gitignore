@@ -1,0 +1,25 @@
+# Generated files
+bee2_wrap.*
+bee2.*
+bee2r.R
+go.mod
+*.tar.gz
+*cs.cs
+Class1.cs
+
+# Object files
+bin/
+obj/
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# IDE files
+.vscode/
+.idea/
+
+# Specific files
+.DS_Store
