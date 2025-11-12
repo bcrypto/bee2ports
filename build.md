@@ -41,3 +41,16 @@ cd test/test_csharp
 dotnet build
 dotnet run
 ```
+
+# Rust
+
+## Build
+```
+cd bee2rust
+cargo build
+```
+
+## Test
+```
+cargo run
+```
