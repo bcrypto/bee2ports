@@ -6,6 +6,8 @@ go.mod
 *.tar.gz
 *cs.cs
 Class1.cs
+build/
+*.egg-info
 
 # Object files
 bin/
