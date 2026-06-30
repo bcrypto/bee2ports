@@ -54,3 +54,22 @@ cargo build
 ```
 cargo run
 ```
+
+# Python
+
+## Install
+
+1. Compile SWIP interface:
+```
+swig -python -cpperraswarn -o bee2py/bee2_wrap.c -outdir bee2py bee2.i 
+```
+2. Install package to Python:
+```
+python3 -m pip install .
+```
+
+## Test
+```
+python3 test/test_belt.py 
+python3 test/test_bign.py 
+```
