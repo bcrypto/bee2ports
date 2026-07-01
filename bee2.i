@@ -12,6 +12,7 @@
 #include "bee2/core/mem.h"
 #include "bee2/core/hex.h"
 
+#include "bee2/crypto/bash.h"
 #include "bee2/crypto/belt.h"
 #include "bee2/crypto/bign.h"
 
@@ -40,6 +41,7 @@ void* ptradd(void* ptr, int offset);
 %include "bee2/include/bee2/core/safe.h"
 %include "bee2/include/bee2/core/mem.h"
 
+%include "bee2/include/bee2/crypto/bash.h"
 %include "bee2/include/bee2/crypto/belt.h"
 
 %include "bee2/include/bee2/crypto/bign.h"
